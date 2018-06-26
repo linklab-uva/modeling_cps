@@ -1,25 +1,26 @@
-This repository is no longer maintained. 
-============
-
-Herring Cove
-============
-
-Herring Cove is a clean and responsive theme for Jekyll. 
+---
+title: What is this, anyway?
+date: 2013-12-08 19:55:16
+categories: jekyll testing
+---
 
 
-### Overview 
+Herring Cove is a clean and responsive theme for Jekyll.
+
+
+### Overview
 
 * Fixed Sidebar with social links
-* Minimal design 
+* Minimal design
 * Comments by Disqus
-* Social Sharing abilities 
+* Social Sharing abilities
 * Easy to configure
 * Based on Bootstrap
 
 ### Screenshots
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+![screenshot]({{ site.baseurl }}/images/screenshot1.png)
+![screenshot]({{ site.baseurl }}/images/screenshot2.png)
 
 ### Setup
 
@@ -27,7 +28,7 @@ Herring Cove is a clean and responsive theme for Jekyll.
 2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
 3. Edit the `_config.yml` file
 
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon.
 
 ### Download
 
@@ -37,7 +38,7 @@ You can change the showcase image by replacing `showcase.jpg` file in the `image
 * [MIT](http://opensource.org/licenses/MIT)
 
 -------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
+Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions.
 
 *What's with the name?*
 
