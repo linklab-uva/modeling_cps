@@ -2,7 +2,7 @@ module.exports = {
     title: 'Principles of Modeling for Cyber-Physical Systems',
     description: 'Essentially, all models are wrong, but some are useful. [George E. Box]. This course is about building useful models',
     dest: 'build',
-    base: '/',
+    base: '/modeling_cps/',
     ga: 'UA-96845591-3',
     head: [
         ['link', {rel: 'icon', href: `/logo.png`}],
