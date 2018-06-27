@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Open Autonomous Safety',
-    description: 'At Voyage, we live and breathe safety every single day. We understand the magnitude of the responsibility we have each time a Voyage autonomous vehicle is on the roadway with the public.',
+    title: 'Principles of Modeling for Cyber-Physical Systems',
+    description: 'Essentially, all models are wrong, but some are useful. [George E. Box]. This course is about building useful models',
     dest: 'build',
     base: '/',
     ga: 'UA-96845591-3',
