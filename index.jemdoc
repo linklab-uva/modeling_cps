@@ -1,0 +1,76 @@
+# jemdoc: menu{MENU}{index.html}
+= Principles of Modeling for Cyber-Physical Systems
+University of Virginia
+
+~~~
+{}{}
+Essentially, all models are wrong but some are useful.[George E. Box]
+This course is about building useful models.
+~~~
+
+~~~
+{}{img_left}{./images/mbcps.jpg}{course_modules}{640}{360}{}
+~~~
+
+
+== Logistics
+This course is cross-listed with both Computer Science, and Systems & Information Engineering.
+\n *Course number:* CS-6501-003 / SYS-6581-005
+\n *Lecture*: TuTh 2:00PM - 3:15PM
+\n *Thornton Hall D222*
+
+In addition, for Fall 2018 this course will also be taught online, as part of the UVA CGEP program.
+
+== About the course
+
+Design of complex and reliable cyber-physical systems (CPS) requires the creation of mathematical models, both of the environment and of the system itself. Such models allow us to analyze, control, verify, and optimize a system’s performance. The modeling choice is largely dictated by the intended use of the model plus the intricacies of the underlying physical domain. This course will provide a solid foundation for understanding different modeling paradigms, and explore them through a deep dive and hands on implementation for three CPS domains: *Energy, Medical, and Automotive* cyber-physical systems. Students will come out of this course with advanced and transferrable knowledge of model-based design methods and tools, and will be ready for tackling multi-disciplinary systems projects. In addition, you will become domain experts in energy, medical, and automotive cyber-physical systems.
+
+== Prerequisites
+Ordinary differential equations
+Prior experience working with MATLAB and Simulink
+Some familiarity with Python
+Mathematical maturity (e.g., you were comfortable in a Calculus, or Stat class or you didn’t panic in an Advanced Probability class)
+
+== Grading
+This course does not have a midterm or a final exam.
+Spend your energy focusing on what you are learning, instead of worrying about your grade.
+
+Although the material we cover is challenging, and the pace may seem overwhelming at times, we are confident that all students who put effort into this class and take good advantage of available help will do well.
+Students who do especially outstanding work in the course may be offered research positions in my research.
+The final grade is determined on the basis of completing module assignments.Each module is equally weighted.
+
+The breakdown of module assignments is given below:
+
+==== Module 1 - Energy CPS: Overall grade (1/3)
+The grade breakdown within this module is as follows:
+
+- Assignment 1 (10%)
+- Assignment 2 (30%)
+- Assignment 3 (30%)
+- Assignment 4 (30%)
+
+==== Module 2 - Medical CPS: Overall grade (1/3)
+The grade breakdown within this module is as follows:
+
+- Assignment 5 (35%)
+- Assignment 6 (35%)
+- Assignment 7 (30%)
+
+
+==== Module 3 - Automotive CPS: Overall grade (1/3)
+The grade breakdown within this module is as follows:
+
+- Assignment 8 (30%)
+- Assignment 9 (35%)
+- Assignment 10 (35%)
+
+That being said, if there is some combination of the above that demonstrates that you have gotten what we hope out of the class then you will receive a top grade.
+
+== Honor
+We believe strongly in the value of a community of trust, and expect all of the students in this class to contribute to strenghtening and enhancing that community.
+The course will be better for everyone if everyone can assume everyone else is trustworthy.
+The course staff starts with the assumption that all students at the university deserve to be trusted.
+Finding or trying to find solutions online only defeats the purpose of learning.
+
+== Computer Failures
+Computer failures (e.g. server failures, network failures, power outages, etc.) are a fact of life. Plan your project to be able to cope with this degree of uncertainty. Short failures will be considered to be part of the normal course of events. In the case of catastrophic failures (which last more than 12 hours), notify your teaching assistants.

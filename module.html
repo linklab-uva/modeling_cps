@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<title>Principles of Modeling for Cyber-Physical Systems</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Fall 2018</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="module.html">Syllabus</a></div>
+<div class="menu-item"><a href="schedule.html">Schedule</a></div>
+<div class="menu-item"><a href="assignments.html">Assignments</a></div>
+<div class="menu-item"><a href="instructor.html">Instructor</a></div>
+<div class="menu-category">Resources</div>
+<div class="menu-item"><a href="">Piazza</a></div>
+<div class="menu-item"><a href="video.html">Video&nbsp;Lectures</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<style>
+a, h1, h2, p {
+font-family: 'Dosis', sans-serif;
+}
+</style>
+<h1>Principles of Modeling for Cyber-Physical Systems</h1>
+<div id="subtitle">University of Virginia</div>
+</div>
+<h2>Topics to be covered</h2>
+<p>The course is divided into three modules, each covering a different CPS domain, a different modeling principle, and a different domain specific tool.
+The following specific topics will be covered in the this course.</p>
+<table id="topics">
+<tr class="r1"><td class="c1">Modeling for predictive control </td><td class="c2"> Model validation </td></tr>
+<tr class="r2"><td class="c1">Black-box, gray-box, and white-box modeling </td><td class="c2"> Model abstraction/order reduction </td></tr>
+<tr class="r3"><td class="c1">Dynamical system modeling </td><td class="c2"> Model checking </td></tr>
+<tr class="r4"><td class="c1">Parameter estimation </td><td class="c2"> Sensitivity analysis </td></tr>
+<tr class="r5"><td class="c1">Linear and non-linear optimization </td><td class="c2"> Data-driven, end-to-end modeling </td></tr>
+<tr class="r6"><td class="c1">Model tuning and over fitting   </td><td class="c2"> Modeling and testing of control loops
+</td></tr></table>
+<h2>Module 1: Energy CPS - <i>predictive control</i></h2>
+<table class="imgtable"><tr><td>
+<img src="./images/energy.png" alt="course_modules" width="404px" height="202px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Buildings consume nearly
+half of all energy produced in the United States. 75% of all electricity
+produced in the U.S. is used to just operate buildings.</p>
+<p>You will learn how first-principles of physics can be used to create a
+‘thermal’ RC-network model of the energy-use dynamics of any building. We
+will train and evaluate these models using real data from buildings. We will
+then use these models to optimize the operation of the building’s heating,
+ventilation, and air-conditioning (HVAC), and lighting systems to make them
+more energy and cost-efficient. We will also explore alternative data-driven methods for building modeling.</p>
+<p><i>You will learn to use the following tools</i>: <b>EnergyPlus, MLE+,Matlab (SysID,StateSpace)</b></p>
+<h2>Module 2: Medical CPS - <i>model checking</i></h2>
+<table class="imgtable"><tr><td>
+<img src="./images/heart.png" alt="course_modules" width="422px" height="211px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Life-saving medical devices, like pacemakers and defibrillators, require a rigorous approach to verifying their safety.
+How do we ensure that the software on implantable medical devices will perform safely under all conditions?</p>
+<p>We will first tackle the question: <i>How do you mathematically model the human heart?</i>
+We will use timed automata to create a virtual heart electrophysiology model which will allow us to formally verify implantable cardiac devices.
+You will learn about the principles model checking, and verification.</p>
+<p><i>You will learn to use the following tools</i>: <b>Simulink, StateFlow, UPPAAL</b></p>
+<h2>Module 3: Automotive CPS - <i>end-to-end autonomous driving</i></h2>
+<table class="imgtable"><tr><td>
+<img src="./images/f110.png" alt="course_modules" width="346px" height="231px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>End-to-end learning where direct camera inputs can be converted into control actions for an autonomous vehicle is redefining the way we think about modeling automotive systems.</p>
+<p>In this fast paced module, you will learn about how to model and test automotive control systems.
+You will learn how to generate code directly from the model implementation.
+We will then learn about deep convolution networks and use them for designing an end-to-end learning module for a self driving car.</p>
+<p><i>You will learn to use the following tools</i>: <b>TensorFlow/PyTorch</b></p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-06-27 13:08:33 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
